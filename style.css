@@ -1,0 +1,61 @@
+h1{
+    text-align: center;   
+    color: blueviolet;
+   }  
+  
+h2 {
+   text-align: center;
+   color: blueviolet;    
+   } 
+
+h4{
+    text-align: center;
+    size: 30px;
+    color: blueviolet;
+    background-image: cat;
+    border-image-width: auto;   
+   }
+
+   .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    image-resolution: 720p;
+  }
+body{
+  background-color: lightpink;
+}
+
+button:hover,body:hover{
+  background-color: magenta;
+}
+h3:hover, h2:hover ,h1:hover , h4:hover {
+  color: black;
+}
+
+h3{
+  text-align: center;
+  color:purple
+}
+
+button {
+  background-color: rgb(238, 16, 90);
+  outline: auto;
+  outline-color: black;
+  text-shadow: cornsilk;
+  width: max-content;
+  max-height: max-content;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
