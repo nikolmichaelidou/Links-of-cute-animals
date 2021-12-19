@@ -171,18 +171,27 @@
 
       </div>
 
-      <button> Press for Horsie song! 🐴😸
-        <audio src="/assets/media/ELUVEITIE - Epona (OFFICIAL VIDEO).mp3"
-          controls>
-        </audio>
-      </button>
+      <audio id="idAudio">
+        <source src="/assets/media/ELUVEITIE - Epona (OFFICIAL VIDEO).mp3" type="mp3">
+      </audio>
 
-      <br />
+      <button onclick="play_Audio()" type="button">Play Audio</button>
+      <button onclick="pause_Audio()" type="button">Pause Audio</button>
 
+      <script>
+        var GFG = document.getElementById("idAudio");
+
+        function play_Audio() {
+          GFG.play();
+        }
+
+        function pause_Audio() {
+          GFG.pause();
+        }
+      </script>
+      <br>
 
       <h1>FOR REQUESTS PLEASE DM ON<EM> WHEREVER</EM></h1>
-
-
 
       <style>
         /* unvisited link */
